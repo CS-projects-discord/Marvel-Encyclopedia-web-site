@@ -101,8 +101,8 @@ transition: all 0.2s ease 0s;
 
 img{
 height: 500px;
-margin-left: 500px;
-margin-top: -400px;
+margin-left: 900px;
+margin-top: -500px;
 
 }
 img:hover{
@@ -150,3 +150,5 @@ img:hover{
      -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
+
+.mySlides {display:none;}
