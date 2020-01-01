@@ -7,8 +7,12 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2);
 
 	/* font */
 font-family: 'Lato', sans-serif;
+margin: 0;
 }
 
+/* Suggestion: Remove h1 and span since we don't used it*/
+
+/*
 h1{
 	font-size: 24px;
 	font-weight:900;
@@ -26,8 +30,7 @@ span{
 	margin-top:20px;
 	text-shadow: 4px 4px 8px #000000;
 }
-
-
+*/
 .title{
 position: absolute;
 top: 30% auto;
@@ -158,30 +161,59 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
- background-color: rgba(2,2,2,0.2);
-    box-shadow: 1px 2px 4px black;
- top: 0;
+  list-style-type: none;
 }
 
-li {
-  float: right;
+/* add right and left class for menu*/
+.right{
+	float: right;
+	padding: 1%;
+	
 }
+.left{
+	float: left;
+	margin: 0 2vw;
+	text-align:center;
+	text-decoration: none;
+	padding: 1%;
+	font-size:3vh;
+	font-weight:900;
+	text-shadow: 4px 4px 8px #000000;
+}
+
+/* suggestion: remove this since we use left and right class above*/
+/*li {
+  float: right;
+  list-style-type: none;
+}*/
 
 li a {
   display: flex;
+  margin: 0 2vw; /* make margin fluid, vw mean viewport witdth */
+  
   color: white;
   text-align: center;
-  padding: 12px 14px;
   text-decoration: none;
     
-    font-size: 20px;
-font-weight: 300;
-color: white;
-
-text-shadow: 4px 4px 8px #000000;
+  font-size: 3vh; /* size should stay the same when zoom in and out*/
+  font-weight: 300;
+  
+  text-shadow: 4px 4px 8px #000000;
 }
 
 li a:hover {
   background-color: red;
 }
 
+/* add navagation */
+nav{
+	width: 100%;
+	background-color: rgba(2,2,2,0.2);
+    box-shadow: 1px 2px 4px black;
+	top: 0;
+	position: fixed;
+	/*Create a separate background for the navagation/menu */
+	background: #8E2DE2;  
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+	background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+}
