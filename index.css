@@ -15,14 +15,14 @@ z-index: 0;
 position: absolute;
 top: 30% auto;
 left: 30% auto;
-margin-top: 420px;
-margin-left: 150px;
+margin-top: -6%;
+margin-left: 10%;
 
 transform:  translateX(-30%) translateY(-30%) rotate(-90deg);
 -ms-transform: translateX(-50%) translateY(-50%) rotate(-90deg); /* IE 9 */
 -webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg); /* Safari 3-8 */
  
-font-size: 38px;
+font-size: 5vh;
 font-weight: 900;
 color: red;
 
@@ -32,14 +32,14 @@ text-shadow: 4px 4px 8px #000000;
 
 .line {
     transform: rotate(90deg);
-    width: 480px;
+    width: 32%;
     display: block;
     border: 1;
     border-top: 5px solid white;
    box-shadow: -4px -4px 8px #000000;
 left: 10% auto;
-margin-top: 420px;
-margin-left: -10px;
+margin-top: 26%;
+margin-left: -3%;
     padding: 0;
 }
 
@@ -51,7 +51,7 @@ margin-top: -16%;
 margin-left: 17%;
 
 
-font-size: 20px;
+font-size: 2.7vh;
 font-weight: 600;
 color: white;
 
@@ -63,9 +63,9 @@ border: none;
 background: white;
 color: black;
 font-weight: 100;
-padding: 20px;
+padding: 2.7vh;
 text-transform: uppercase;
-border-radius: 6px;
+border-radius: 6%;
 display: inline-block;
 transition: all 0.3s ease 0s;
     margin-top: 12%;
@@ -75,7 +75,7 @@ margin-left: 17%;
 button:hover {
 color: black;
 font-weight: 700 ;
-letter-spacing: 3px;
+letter-spacing: 0.41vh;
 background: red;
 -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
@@ -83,9 +83,9 @@ transition: all 0.2s ease 0s;
 }
 
 img{
-height: 500px;
-margin-left: 900px;
-margin-top: -500px;
+height: 69vh;
+margin-left: 60%;
+margin-top: -33%;
 
 }
 img:hover{
