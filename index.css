@@ -67,8 +67,8 @@ text-transform: uppercase;
 border-radius: 6px;
 display: inline-block;
 transition: all 0.3s ease 0s;
-    margin-top: 180px;
-margin-left: 280px;
+    margin-top: 12%;
+margin-left: 17%;
 }
 
 button:hover {
