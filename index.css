@@ -10,27 +10,6 @@ font-family: 'Lato', sans-serif;
 margin: 0;
 }
 
-/* Suggestion: Remove h1 and span since we don't used it*/
-
-/*
-h1{
-	font-size: 24px;
-	font-weight:900;
-	color:red;
-	margin-left:25px;
-	margin-top:20px;
-	text-shadow: 4px 4px 8px #000000;
-}
-span{
-    
-    font-size: 24px;
-	font-weight:900;
-	color:white;
-	margin-left:20px;
-	margin-top:20px;
-	text-shadow: 4px 4px 8px #000000;
-}
-*/
 .title{
 position: absolute;
 top: 30% auto;
@@ -67,8 +46,8 @@ margin-left: -10px;
 position: absolute;
 top: 30% auto;
 left: 30% auto;
-margin-top: 180px;
-margin-left: 280px;
+margin-top: -16%;
+margin-left: 17%;
 
 
 font-size: 20px;
@@ -162,6 +141,7 @@ ul {
   padding: 0;
   overflow: hidden;
   list-style-type: none;
+
 }
 
 /* add right and left class for menu*/
@@ -181,16 +161,11 @@ ul {
 	text-shadow: 4px 4px 8px #000000;
 }
 
-/* suggestion: remove this since we use left and right class above*/
-/*li {
-  float: right;
-  list-style-type: none;
-}*/
+
 
 li a {
   display: flex;
   margin: 0 2vw; /* make margin fluid, vw mean viewport witdth */
-  
   color: white;
   text-align: center;
   text-decoration: none;
@@ -201,10 +176,10 @@ li a {
   text-shadow: 4px 4px 8px #000000;
 }
 
-li a:hover {
+li.right:hover {
   background-color: red;
-}
 
+}
 /* add navagation */
 nav{
 	width: 100%;
@@ -212,6 +187,7 @@ nav{
     box-shadow: 1px 2px 4px black;
 	top: 0;
 	position: fixed;
+    color: white;
 	/*Create a separate background for the navagation/menu */
 	background: #8E2DE2;  
 	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
